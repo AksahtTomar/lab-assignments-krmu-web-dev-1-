@@ -1,0 +1,166 @@
+body{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #004aad;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    width: 1000px;
+    margin: 20px auto ;
+}
+
+hr{
+    width: 1000px;
+    margin: 20px auto;
+}
+ 
+header h1{
+
+    margin: 0;
+}
+
+nav{
+    margin: 10px;
+    
+}
+
+nav a{
+
+    color: white;
+    font-weight: bold;
+    margin: 0 15px;
+    
+}
+
+nav a :hover{
+
+    text-decoration: underline;
+}
+
+h2{
+    text-align: center;
+    color: #004aad;
+
+}
+
+.profile{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+    display: block;
+
+
+}
+
+p{
+    text-align: center;
+    margin: 10px auto;
+
+}
+
+#about{
+    text-align: center;
+}
+
+#about h3{
+    color: #004aad;
+}
+
+table{
+    border-color: #004aad;
+    width: 600px;
+    height: 200px;
+    align-items: center;
+    margin: 20px auto;
+}
+
+th{
+    background-color: #004aad;
+    color: white;
+}
+
+#projects{
+    text-align: center;
+}
+
+#projects h2{
+    color: #004aad;
+}
+
+article{
+    background-color: rgb(223, 214, 214);
+    width: 800px;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+article a:hover{
+    text-decoration: underline;
+}
+
+#contact{
+    text-align: center;
+    
+}
+
+#contact h2{
+        color: #004aad;
+}
+
+ form{
+    background-color: rgb(223, 214, 214);
+    padding: 20px;
+    width: 900px;
+    height: auto;
+    margin: 20px auto;
+ }
+
+label{
+    font-weight: bold;
+}
+
+input{
+    width: calc(100% - 100px);
+    padding: 8px;
+    
+    
+
+}
+
+textarea{
+    width: calc(100% - 100px);
+    padding: 8px;
+    
+}
+ 
+button{
+    background-color: #004aad;
+    color: white;
+    width: 200px;
+    height: auto;
+}
+ 
+footer {
+    
+    background-color: #004aad;
+    text-align: center;
+    height: 40px;
+    padding: 0.5%;
+    width: 1000px;
+    margin: 20px auto;
+    
+    
+
+}
+
+footer a{
+    color: white;
+    
+}
+
+
