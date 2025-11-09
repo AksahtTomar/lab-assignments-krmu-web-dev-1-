@@ -1,1 +1,1 @@
-
+This code is a personal portfolio webpage built using HTML and CSS. It showcases the developer’s profile, skills, projects, and contact form in a structured and visually appealing way.The purpose of this webpage is to serve as a portfolio site for Akshat Tomar, a web developer. It demonstrates HTML structure, basic CSS styling, and layout design suitable for beginner to intermediate web development projects.
