@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Header */
+.top-header {
+    background: #0056d2;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.top-header nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 40px;
+    background: #f8f8f8;
+}
+
+.title-highlight {
+    color: #ff5b4a;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero-img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* About */
+.about-section {
+    padding: 40px;
+    text-align: left;
+}
+
+.about-section h2 {
+    margin-bottom: 15px;
+}
+
+/* Skills */
+#skills {
+    padding: 40px;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.skill-card {
+    background: #0056d2;
+    color: white;
+    padding: 25px;
+    width: 25%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+/* Projects */
+#projects {
+    padding: 40px;
+}
+
+.project-box {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Contact */
+.contact-section {
+    padding: 40px;
+    text-align: center;
+}
+
+form {
+    width: 320px;
+    margin: auto;
+    text-align: left;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background: #0056d2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0040a8;
+}
+
+/* Footer */
+.footer {
+    background: #0056d2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.back-to-top {
+    background: white;
+    color: #0056d2;
+    padding: 8px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.back-to-top:hover {
+    background: #e6e6e6;
+}
